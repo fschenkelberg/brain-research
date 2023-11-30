@@ -1,0 +1,6 @@
+[submodule "handwritingBCI"]
+	path = handwritingBCI
+	url = https://github.com/fwillett/handwritingBCI
+[submodule "pytorch"]
+	path = pytorch
+	url = https://github.com/pytorch/pytorch
