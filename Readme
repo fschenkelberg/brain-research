@@ -1,0 +1,31 @@
+# Installing PyTorch From Source
+
+These steps guide you through the process of building and installing PyTorch from its' source code.
+
+```bash
+# Activate the virtual environment
+conda activate handwritingBCI
+
+# Run this script to install package dependencies
+./run.sh
+
+# Clone the PyTorch repository
+git clone --recursive https://github.com/pytorch/pytorch
+cd pytorch
+
+# Build PyTorch from the source code
+python setup.py build
+
+# Install the built PyTorch package
+python setup.py install
+```
+
+To ensure PyTorch has been successfully installed, you can verify by running Python in the virtual environment.
+
+```bash
+# Start a Python session - ensure it's within the virtual environment
+python3
+
+# Inside the Python session, import PyTorch
+>>> import torch
+```
